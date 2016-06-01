@@ -41,6 +41,18 @@
     <componentsSettings xmi:id="_yws8XyfUEeaL3LXYr4Zcew" name="DI|tSalesforceConnection" family="Cloud/Salesforce"/>
     <componentsSettings xmi:id="_zHYW4CfUEeaL3LXYr4Zcew" name="SPARK|tAvroMap" family="Processing"/>
     <componentsSettings xmi:id="_zartYCfUEeaL3LXYr4Zcew" name="SPARKSTREAMING|tAvroMap" family="Processing"/>
+    <ItemsRelations xmi:id="_GmQKYCfVEeaL3LXYr4Zcew">
+      <baseItem xmi:id="_GmQKYSfVEeaL3LXYr4Zcew" id="_eedyICfUEeaL3LXYr4Zcew" version="0.1" type="job"/>
+      <relatedItems xmi:id="_GmQKYifVEeaL3LXYr4Zcew" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_GmQKYyfVEeaL3LXYr4Zcew" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_GmQKZCfVEeaL3LXYr4Zcew" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_GmQKZSfVEeaL3LXYr4Zcew" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_GmQKZifVEeaL3LXYr4Zcew" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_GmQKZyfVEeaL3LXYr4Zcew" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_GmQKaCfVEeaL3LXYr4Zcew" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_GmQKaSfVEeaL3LXYr4Zcew" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_GmQKaifVEeaL3LXYr4Zcew" id="Mathematical" version="Latest" type="routine"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_FXZucCfREeaL3LXYr4Zcew" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_FXZucSfREeaL3LXYr4Zcew" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_FXZucifREeaL3LXYr4Zcew" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
