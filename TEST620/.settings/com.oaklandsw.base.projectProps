@@ -5,5 +5,7 @@ Namespace Containers,com.oaklandsw.base,order,4
 Reports,com.oaklandsw.base,order,7
 Sample Data,com.oaklandsw.base,order,6
 Structures,com.oaklandsw.base,order,0
+Structures/CSV/FlatComponents.xml,com.oaklandsw.base,references.0,Structures/Recursive/Component.xml,/FlatComponents/Row
+Structures/CSV/PurchaseOrderPayPal.xml,com.oaklandsw.base,references.0,Namespace Containers/PayPal.xml
 assembly.xml,com.oaklandsw.base,order,9
 pom.xml,com.oaklandsw.base,order,8
